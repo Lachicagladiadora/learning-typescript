@@ -60,5 +60,17 @@ h1 {
   filter: drop-shadow(0 0 2em #3178c6aa);
 }
 
+.content{
+  margin: 2em 5em;
+}
 
+ol{
+  display: flex;
+  flex-direction: column;
+}
+
+li a{
+  color: #2b8df5d9;
+  font-size: 18px;
+}
 
