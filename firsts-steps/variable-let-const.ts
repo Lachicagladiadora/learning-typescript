@@ -40,3 +40,7 @@ console.log(users)
 // Being constant, its value does not change and it is not necessary to assign the type of variable
 const pi: number = 3.14151634567;
 const pi2 = 3.1415879
+
+// MODULES
+import { subtract } from "./modules";
+subtract(8, 13)
