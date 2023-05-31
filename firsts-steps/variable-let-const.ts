@@ -35,3 +35,8 @@ let users: Record <string, string[]> ={
   'Ricardo': ['ricardo@gmail.com', 'recardito@hotmail.com']
 }
 console.log(users)
+
+// CONSTANTS
+// Being constant, its value does not change and it is not necessary to assign the type of variable
+const pi: number = 3.14151634567;
+const pi2 = 3.1415879
