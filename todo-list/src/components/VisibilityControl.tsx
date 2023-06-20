@@ -13,7 +13,6 @@ export const VisibilityControl = ({setShowCompleted,cleanTasks,isChecked}:any) =
       color:'#B31D65',
       textAlign:'center',
       fontWeight:'bold',
-
     }}
     >
       <label

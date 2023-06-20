@@ -13,7 +13,7 @@ export const App = () => {
   const createNewTask = (taskContent: string): void => {
     if (!taskItems.find((task) => task.content === taskContent)) {
       setTaskItems([...taskItems, { content: taskContent, done: false }])
-      console.log(taskContent)
+      // console.log(taskContent)
     }
   }
 
@@ -36,7 +36,7 @@ export const App = () => {
   }, [])
 
   useEffect(() => {
-    console.log('change')
+    // console.log('change')
     localStorage.setItem('TasksList', JSON.stringify(taskItems))
   }, [taskItems])
 
