@@ -191,7 +191,7 @@ type TConstPar5 = ConstructorParameters<Function>;
 declare function f1(): { a: number; b: string };
  
 type TReturn0 = ReturnType<() => string>;
-type TReturn1 = ReturnType<(s: string) => void>;
+type TReturn1 = ReturnType<(s: string) => void>; //no retorna nada
 type TReturn2 = ReturnType<<T>() => T>;
 type TReturn3 = ReturnType<<T extends U, U extends number[]>() => T>;
 type TReturn4 = ReturnType<typeof f1>;
