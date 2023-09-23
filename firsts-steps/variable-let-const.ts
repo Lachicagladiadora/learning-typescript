@@ -44,3 +44,10 @@ const pi2 = 3.1415879
 // MODULES
 import { subtract } from "./modules";
 subtract(8, 13)
+
+// OTHERS TYPES
+// any -> anyType & ignore typescript typing
+const a 
+
+// unknown -> unknown type and be careful with the properties (methods) you pass to it
+const b:unknown
